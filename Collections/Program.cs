@@ -15,7 +15,7 @@ namespace Collections
             //List();
             //Dictionary
             Dictionary<string,string> dictionary= new Dictionary<string, string>();
-            dictionary.Add("table","masa");
+            dictionary.Add("table","masa  ");
             dictionary.Add("book","kitap");
             dictionary.Add("pen","dolma kalem");
 
