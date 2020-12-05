@@ -45,7 +45,7 @@ namespace Arrays
                 {
                     Console.WriteLine(arrays3[i,j]);
                 } 
-                Console.WriteLine("--------------------");
+                Console.WriteLine("--------------------------");
             }
             Console.ReadKey();
         }
