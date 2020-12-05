@@ -10,17 +10,17 @@ namespace Conditionals_Switch
     {
         static void Main(string[] args)
         {
-            int number = 10;
+            int number = 11;
             switch (number)
             {
-                case 10:
-                    Console.WriteLine("Number is 10");
+                case 11:
+                    Console.WriteLine("Number is 11");
                     break;
                 case 20:
                     Console.WriteLine("Number is 20");
                     break;
                 default:
-                    Console.WriteLine("Number is not 10 or 20");
+                    Console.WriteLine("Number is not 11 or 20");
                     break;
             }
 

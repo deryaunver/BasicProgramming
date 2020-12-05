@@ -57,7 +57,7 @@ namespace Conditionals_Exam
             //}  
             #endregion
 
-            Console.Title = "♣ IF - ELSE İLE 4 İSLEM ♣";
+            Console.Title = "♣ IF - ELSE İLE 4 İSLEM ♣".ToUpper();
             //if-else ile 4 işlem yapma:
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write("1.SAYIYI GİRİNİZ: ");

@@ -14,7 +14,7 @@ namespace Loops
             // ForLoop();
             //WhileLoop();
             //DoWhileLoop();
-            string[] arrays = { "Derya","Duygu","Evren","Emrah"};
+            string[] arrays = { "DERYA","DUYGU","EVREN","EMRAH"};
             foreach (var array in arrays)
             {
                 Console.WriteLine(array);

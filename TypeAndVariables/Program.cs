@@ -15,7 +15,7 @@ namespace TypeAndVariables
             decimal number6 = 10.4m;
             double number5 = 10.4;
             char character = 'A';
-            bool condition = true;//default'u  false dur
+            bool condition = true;//default'u  false'dur.
             byte number4 = 255;//(-256)
             short number3 = 32767; //+,- 16 bit
             long number2 = 9223372036854775807;//(+,- int in iki katı 64 bit)
@@ -23,7 +23,7 @@ namespace TypeAndVariables
             var number7 = 12;
             number7 = 'B';//ascıı nin sayısal karşılığı vardır.
           
-            Console.WriteLine($"integer: {number1}");
+            Console.WriteLine($"integer : {number1}");
             Console.WriteLine($"long: {number2}");
             Console.WriteLine($"short: {number3}");
             Console.WriteLine($"byte: {number4}");

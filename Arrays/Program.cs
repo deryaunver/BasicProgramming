@@ -12,9 +12,9 @@ namespace Arrays
         {
             //kullanım 1
             string[] arrays = new string[3];
-            arrays[0] = "Derya";
-            arrays[1] = "Emrah";
-            arrays[2] = "Duygu";
+            arrays[0] = "DERYA";
+            arrays[1] = "EMRAH";
+            arrays[2] = "DUYGU";
             for (int i = 0; i < arrays.Length; i++)
             {
                 Console.WriteLine(arrays[i]);

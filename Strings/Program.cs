@@ -12,7 +12,7 @@ namespace Strings
         static void Main(string[] args)
         {
             //Intro();
-            string sentence = "My Name is Derya";
+            string sentence = "My Name is Derya ";
             var result = sentence.Length;//cümlenin uzunluğu
             Console.WriteLine($"length: {result}");
             var result2 = sentence.Clone();

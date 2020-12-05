@@ -15,9 +15,9 @@ namespace Collections
             //List();
             //Dictionary
             Dictionary<string,string> dictionary= new Dictionary<string, string>();
-            dictionary.Add("table","masa  ");
-            dictionary.Add("book","kitap");
-            dictionary.Add("pen","dolma kalem");
+            dictionary.Add("TABLE","MASA  ");
+            dictionary.Add("BOOK","KİTAP");
+            dictionary.Add("PEN","DOLMA KALEM");
 
             foreach (var dictionaries in dictionary)
             {

@@ -19,7 +19,7 @@ namespace Enums
         }
         static void Main(string[] args)
         {
-            Console.Title = "ENUM= NUMARALANDIRMA + SABİT";
+            Console.Title = "ENUM= NUMARALANDIRMA + SABİT".ToUpper();
             Gunler gun = Gunler.cumartesi;
             switch (gun)
             {

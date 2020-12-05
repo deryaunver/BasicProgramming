@@ -26,7 +26,7 @@ namespace Methods
 
         static void Add()
         {
-            Console.WriteLine("Added!");
+            Console.WriteLine("ADDED!");
         }
 
         static int Add2(int number1,int number2)

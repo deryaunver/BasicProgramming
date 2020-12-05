@@ -19,6 +19,7 @@ namespace CheckerBoard
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //DAMA TAHTASI YAPMA
             Button[,] buttons= new Button[8,8];
             int top = 0;
             int left = 0;

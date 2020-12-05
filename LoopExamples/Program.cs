@@ -16,11 +16,11 @@ namespace LoopExamples
             int sayi = int.Parse(Console.ReadLine());
             if (IsPrimeNumber(sayi))
             {
-                Console.WriteLine("This is a prime number");
+                Console.WriteLine("This is a prime number".ToUpper());
             }
             else
             {
-                Console.WriteLine("This isn't a prime number");
+                Console.WriteLine("This isn't a prime number".ToUpper());
             }
 
             Console.ReadKey();
