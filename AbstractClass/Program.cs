@@ -22,7 +22,7 @@ namespace AbstractClass
         }
     }
 
-     abstract class Database
+     abstract class Database//tanımlama
     {
         public void Add()
         {
