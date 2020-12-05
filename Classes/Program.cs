@@ -23,7 +23,7 @@ namespace Classes
             customer.Id = 1;
             customer.FirstName = "Duygu";
             customer.LastName = "ÜNVER";
-            customer.City = "İZMİR";
+            customer.City = "İzmir";
             Console.WriteLine(customer.FirstName);
 
             Customer customer2 = new Customer()
