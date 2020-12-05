@@ -21,7 +21,7 @@ namespace Classes
 
             Customer customer= new Customer();
             customer.Id = 1;
-            customer.FirstName = "Derya";
+            customer.FirstName = "Duygu";
             customer.LastName = "Ünver";
             customer.City = "İZMİR";
             Console.WriteLine(customer.FirstName);
