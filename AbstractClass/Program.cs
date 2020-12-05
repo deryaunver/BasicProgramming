@@ -34,13 +34,13 @@ namespace AbstractClass
 
      class  SqlServer:Database
      {
-         public override void Delete()
-         {
-             Console.WriteLine("Deleted  by Sql");
-         }
-     }
+        public override void Delete()
+        {
+            Console.WriteLine("Deleted  by Sql");
+        }
+    }
 
-     class Oracle:Database
+    class Oracle:Database
      {
          public override void Delete()
          {
