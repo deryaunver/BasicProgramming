@@ -32,7 +32,7 @@ namespace Attributes
 
     class CustomerDal
     {
-        [Obsolete("Don't use add,instead use AddNew Method")]
+        [Obsolete("Don't use add,instead use AddNew Method!")]
         public void Add(Customer customer)
         {
             Console.WriteLine($"{customer.Id}, {customer.FirstName} ,{customer.LastName} ,{customer.Age}");
