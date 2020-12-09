@@ -13,6 +13,7 @@ namespace Constructors
             CustumorManager custumorManager = new CustumorManager(23);
             custumorManager.List();
             CustumorManager custumorManager2 = new CustumorManager();
+ 
             custumorManager2.List();
 
             Product product = new Product{Id = 1,Name = "Derya"};
