@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Exceptions
@@ -12,10 +13,30 @@ namespace Exceptions
         static void Main(string[] args)
         {
             //ExceptionIntro();
-           // TryCatch();
-            HandleException(() => { Find(); });
-
+            // TryCatch();
+            //ActionDemo();
+            Func<int, int, int> add = Topla;
+            Console.WriteLine(add(2,3));
+            //parametresiz methoda delegasyon yapar.
+            Func<int> getRandomNumber = delegate()
+            {
+                Random random = new Random();
+                return random.Next(1, 100);
+            };
+            Func<int> getRandomNumber2=()=>new Random().Next(1,100);
+            Console.WriteLine(getRandomNumber());
+            Thread.Sleep(1000);
+            Console.WriteLine(getRandomNumber2());
             Console.ReadKey();
+        }
+
+        static int Topla(int sayi1,int sayi2)
+        {
+            return sayi1 + sayi2;
+        }
+        private static void ActionDemo()
+        {
+            HandleException(() => { Find(); });
         }
 
         private static void HandleException(Action action)
