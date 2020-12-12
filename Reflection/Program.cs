@@ -12,7 +12,7 @@ namespace Reflection
     {
         static void Main(string[] args)
         {
-          //DortIslem dortIslem= new DortIslem(2,3);
+          //DortIslem dortIslem= new DortIslem(2,3); 
           //Console.WriteLine(dortIslem.Topla2());
           //Console.WriteLine(dortIslem.Topla(3,4));
 
